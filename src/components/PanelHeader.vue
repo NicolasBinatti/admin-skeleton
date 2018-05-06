@@ -38,9 +38,6 @@ export default {
   justify-content: flex-end;
   width: 100%;
   height: 50px;
-  background: #FFFFFF;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .header-profile-name {
@@ -50,15 +47,18 @@ export default {
 
 .header-profile-name span {
   margin: auto;
+  cursor: default;
 }
 
 .header-profile-picture {
   display: flex;
   margin: 0px 10px 0px 10px;
+  cursor: pointer;
 }
 
 .header-profile-picture img {
   max-width: 35px;
+  background-color: #FFFFFF;
   border-radius: 50%;
   box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.15);
   margin: auto;

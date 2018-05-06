@@ -1,7 +1,7 @@
 {
-  "name": "vue-skeleton",
+  "name": "admin-skeleton",
   "version": "1.0.0",
-  "description": "vue skeleton",
+  "description": "admin skeleton",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

@@ -41,20 +41,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
-  height: 100vh;
-  color: #333333;
+  height: 100vh;  
+  background-color: #7FC4F0;
+  background-image: url(./assets/background/light.svg), radial-gradient(farthest-side ellipse at 10% 0, #7FC4F0 20%, #C1DDE6);
+  background-image: url(./assets/background/light.svg), -webkit-radial-gradient(10% 0, farthest-side ellipse, #7FC4F0 20%, #C1DDE6);
+  background-image: url(./assets/background/light.svg), -moz-radial-gradient(10% 0, farthest-side ellipse, #7FC4F0 20%, #C1DDE6);
+  background-size: cover;
+  background-attachment: fixed, fixed;
+  color: #515151;
 }
 
 .app-left {
-  width: 250px;
+  width: 180px;
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
-  width: calc(100% - 250px);
+  width: calc(100% - 180px);
   height: 100vh;
-  background-color: #F2F2F2;
 }
 
 .app-header {

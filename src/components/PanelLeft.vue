@@ -54,14 +54,14 @@ export default {
 }
 
 .left-container a {
-  color: #333333;
+  color: #515151;
   text-decoration: none;
   cursor: pointer;
 }
 
 .left-logo {
   max-width: 100px;
-  margin-left: 50px;
+  margin-left: 40px;
   margin-bottom: 25px;
 }
 </style>

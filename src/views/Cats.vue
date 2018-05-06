@@ -49,8 +49,9 @@ export default {
 
 <style scoped>
 .cats-container {
+  min-width: 320px;
   margin: 20px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.4);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -58,11 +59,9 @@ export default {
 .cats-header {
   width: 100%;
   height: 50px;
-  background: #333333;
-  border-radius: 4px 4px 0px 0px;
   font-weight: bold;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #515151;
   display: flex;
 }
 
